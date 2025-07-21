@@ -18,7 +18,7 @@ elif result_number == 0:
     # child new process
     # sleep(10)
     # html = get('https://httpbin.org/delay/10')
-    os.system('bash test.curl')
+    os.system('bash ./bin/test.curl')
     # print(f"downloaded html {html[:100]}")
     # print(html)
 else:
