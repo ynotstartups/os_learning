@@ -22,7 +22,7 @@ elif result_number == 0:
     # print(f"downloaded html {html[:100]}")
     # print(html)
 else:
-    # sleep(5)
+    sleep(5)
     # parent is here
     print(f"hello, I am parent of {result_number} with process id {os.getpid()}")
 
